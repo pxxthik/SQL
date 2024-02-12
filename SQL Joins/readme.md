@@ -101,7 +101,7 @@ RIGHT OUTER JOIN Table2
 ON Table1.column_match = Table2.column_match;
 ```
 
-## Self Join
+## Self JOIN
 ```sql
 SELECT e1.employee_id AS employee_id, e1.manager_id AS manager_id,
        e2.employee_id AS manager_employee_id, e2.manager_id AS manager_manager_id
