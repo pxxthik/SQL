@@ -1,6 +1,6 @@
 # SQL Grouping + Sorting
 
-    A GROUP BY statement in SQL specifies that a SQL SELECT statement partitions result rows into groups, based on their values in one or several columns. Typically, grouping is used to apply some sort of aggregate function for each group.
+A GROUP BY statement in SQL specifies that a SQL SELECT statement partitions result rows into groups, based on their values in one or several columns. Typically, grouping is used to apply some sort of aggregate function for each group.
 
 ```sql
 -- Returns a list of Department IDs along with the sum of their sales for the date of January 1, 2000.
